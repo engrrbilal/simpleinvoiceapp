@@ -3,6 +3,10 @@
 > Simple Invoice app is to show invoices, search/sort/filter and create invoices for authrized users.
 > I used bolierplate of thecodingmachine and changed redux implementation to use with redux-saga.
 
+
+https://user-images.githubusercontent.com/29350462/219946767-20c6e345-ef42-4119-965d-3c8a5128f3fb.mp4
+
+
 ## Prerequisites
 
 - [Node 14 or newer](https://nodejs.org) and yarn (Recommended: Use [nvm](https://github.com/nvm-sh/nvm))
