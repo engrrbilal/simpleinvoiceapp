@@ -69,8 +69,8 @@ iOS's build-type is categorized by the following types:
 
 + Ensure all [pre-requisite](#pre-requisite-steps) steps are complete
 + Ensure your devices or simulators are set up and running
-+ Go to project root directory run `yarn pod-install`
-+ Run the app with `yarn ios`
++ Go to project ios directory run `pod install`
++ Go to project root directory run `yarn ios`
 
 ## Folder structure
 
