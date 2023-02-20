@@ -19,7 +19,6 @@ export default function InvoicesSortFilter() {
     /* sort invoices asc/desc by updating pagination */
     const handleSortInvoices = () => {
         const clonedPagination = {...pagination};
-        clonedPagination.pageNum = 1; // reset to page 1 incase last page is > 1
         clonedPagination.ordering = clonedPagination.ordering ==='DESCENDING' ? 'ASCENDING': 'DESCENDING';
         dispatch(updatePagination(clonedPagination))
     }

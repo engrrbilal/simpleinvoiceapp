@@ -36,7 +36,7 @@ export default function CreateInvocieModal({
                 dispatch(updatePagination(INVOICE_DEFAULT_PAGINATION))
                 dispatch(resetCreateInvoice())
                 dispatch(fetchInvoices(INVOICE_DEFAULT_PAGINATION))
-            },4000)
+            },2000)
         }
     },[isInvoiceCreated])
     /* Custom form state set */
